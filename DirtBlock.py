@@ -13,6 +13,8 @@ while running:
 		if event.type == pygame.QUIT:
 			running = False
 
+        shadow = pygame.draw.polygon(screen, (100, 100, 100), [(200, 800), (100, 600), (170, 420), (358, 400)])
+
 	front = pygame.draw.rect(screen, brown, (200, 500, 300, 300))
 	
 	top = pygame.draw.polygon(screen, green, [(200, 500), (358, 345), (658, 345), (500, 500)])
